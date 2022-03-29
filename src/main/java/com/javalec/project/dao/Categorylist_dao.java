@@ -31,7 +31,7 @@ public class Categorylist_dao {
 			Connection connection = null;
 			PreparedStatement preparedStatement = null;
 			ResultSet resultSet = null;
-			
+			//주석주석
 			try {
 				connection = dataSource.getConnection();
 				String query = "select bId, bName, bTitle, bDate from oneline_board"; 
